@@ -6,7 +6,7 @@ yarn typeorm migration:create -n <name>
 // Executa as migrations
 yarn typeorm migration:run
 
-// Desfazer as migrations
+// Desfazer a última migration
 yarn typeorm migration:revert
 
 // Exibe as migrations executadas
